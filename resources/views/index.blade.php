@@ -56,7 +56,7 @@
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
                             <h6>Desa Sukarasa</h6>
-                            <span>Kec. Sawalu, Kab. Tasikmalaya, Jawa Barat</span>
+                            <span>Kec. jawa, Kab. pangandaran, Jawa tengah</span>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
