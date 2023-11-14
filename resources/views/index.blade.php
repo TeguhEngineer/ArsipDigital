@@ -40,7 +40,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <a href="/profile" class="logo d-flex align-items-center">
                 <img src="img/logodesa.png" alt="Desa Sukarasa">
-                <span class="d-none d-lg-block">Desa SukaSuka</span>
+                <span class="d-none d-lg-block">Desa Lakbok</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div>
@@ -56,7 +56,7 @@
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
                             <h6>Desa Lakbok</h6>
-                            <span>----</span>
+                            <span>---</span>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
