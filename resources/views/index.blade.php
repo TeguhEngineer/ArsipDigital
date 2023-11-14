@@ -55,8 +55,8 @@
                     </a><!-- End Profile Iamge Icon -->
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6>Desa Banjar</h6>
-                            <span>Kec. Lakbok Kab. Pangandaran</span>
+                            <h6>woidshcnx weidhk</h6>
+                            <span>eudgcbwiedskujbc owejd</span>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
