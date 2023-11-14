@@ -55,8 +55,8 @@
                     </a><!-- End Profile Iamge Icon -->
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6>Desa Sukarasa</h6>
-                            <span>Kec. Sawalu, Kab. Tasikmalaya, Jawa Barat</span>
+                            <h6>Desa Lakbok</h6>
+                            <span>Kec. Langensari, Kab. Banjar, Jawa Barat</span>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
