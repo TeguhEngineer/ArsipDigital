@@ -1,0 +1,202 @@
+:root {
+    --primary: #0027b1;
+  }
+  
+  body {
+    background-color: #dee9ff;
+  }
+  
+  .header {
+    transition: all 0.5s;
+    z-index: 997;
+    height: 80px;
+    background-color: #fff;
+    padding-left: 20px;
+  }
+  
+  .pencarian {
+    margin-left: 560px;
+  }
+  
+  .pencarian input {
+    border-radius: 50px 0px 0px 50px;
+  }
+  
+  .pencarian button {
+    border-radius: 0px 50px 50px 0px;
+    background-color: #0027b1;
+    color: white;
+  }
+  
+  .pencarian button:hover {
+    background-color: #eaeaea;
+    color: #0027b1;
+  }
+  
+  .box-saldo .card {
+    margin-top: 110px;
+    height: 302px;
+  }
+  
+  .primary {
+    color: #0027b1;
+  }
+  
+  .card-style {
+    height: 45px;
+    background-color: #eaeaea;
+    color: #0027b1;
+  }
+  
+  .card-style:hover {
+    background-color: #0027b1;
+    color: white;
+  }
+  
+  .btn-cetak {
+    height: 38px;
+    width: 370px;
+    color: white;
+  }
+  
+  /* Tampilan Komputer */
+  @media screen and (min-width: 1024px) {
+    /* Header */
+    header .text-dekstop {
+      font-size: 25px;
+    }
+    /* end header */
+  
+    /* box saldo */
+    .i-dots-dekstop {
+      font-size: 30px;
+      position: absolute;
+      margin-left: 740px;
+    }
+    .box-saldo .rupiah-dekstop {
+      margin-top: -30px;
+      color: #0027b1;
+      font-size: 80px;
+    }
+    .box-saldo .text-dekstop {
+      margin-top: 70px;
+      font-size: 30px;
+    }
+    .box-saldo-mobile {
+      display: none;
+    }
+    .a-mobile {
+      display: none;
+    }
+    .card-MK-dekstop {
+      margin-top: 110px;
+    }
+    .text-MK-dekstop {
+      font-size: 21px;
+    }
+    /* end box saldo */
+  
+    /* kolom input */
+    .content-2 .index {
+      margin-top: 10px;
+      height: 150px;
+    }
+    /* end kolom input */
+  
+    /* Laporan pengeluaran */
+    .section-2 .text-dekstop {
+      font-size: 25px;
+    }
+    .content-mobile {
+      display: none;
+    }
+    .table-mobile {
+      display: none;
+    }
+    .btn-mobile {
+      display: none;
+    }
+    /* end laporan pengeluaran */
+    .text-total {
+      display: none;
+    }
+  }
+  
+  /* Tampilan HP */
+  @media screen and (max-width: 930px) {
+    /* Header */
+    header .text-mobile {
+      font-size: 15px;
+    }
+    .header-mobile {
+      height: 70px;
+    }
+    .pencarian {
+      display: none;
+    }
+    /* End Header */
+  
+    /* box saldo */
+    .i-dots-mobile {
+      position: absolute;
+      margin-left: 260px;
+      font-size: 25px;
+    }
+    .box-saldo {
+      display: none;
+    }
+    .box-saldo-mobile .card {
+      margin-top: 100px;
+      height: 140px;
+    }
+    .box-saldo-mobile .text-mobile {
+      margin-top: 30px;
+    }
+    .box-saldo-mobile .rupiah-mobile {
+      margin-top: -25px;
+      color: #0027b1;
+      font-size: 40px;
+    }
+    .card-MK-mobile {
+      margin-top: 10px;
+    }
+    .a-dekstop {
+      display: none;
+    }
+    .text-MK-mobile {
+      font-size: 16px;
+    }
+    /* end box saldo */
+  
+    /* Colom input */
+    .i-plush-mobile {
+      display: none;
+    }
+    .content-2 .index {
+      margin-top: 10px;
+      height: 150px;
+    }
+    /* end kolom input */
+  
+    /* Laporan pengeluaran */
+    .card-mobile {
+      margin-top: -10px;
+    }
+    .content-dekstop {
+      display: none;
+    }
+    .table-dekstop {
+      display: none;
+    }
+    .table-mobile {
+      font-size: 10px;
+    }
+    .i-posisi {
+      position: absolute;
+      margin-left: -7px;
+      margin-top: -6px;
+      font-size: 13px;
+    }
+    /* Laporan pengeluaran */
+  }
+  
