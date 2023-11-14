@@ -40,7 +40,7 @@
         <div class="d-flex align-items-center justify-content-between">
             <a href="/profile" class="logo d-flex align-items-center">
                 <img src="img/logodesa.png" alt="Desa Sukarasa">
-                <span class="d-none d-lg-block">Desa Sukarasa</span>
+                <span class="d-none d-lg-block">Desa SukaSuka</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div>
