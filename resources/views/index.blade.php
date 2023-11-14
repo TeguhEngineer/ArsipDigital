@@ -55,8 +55,8 @@
                     </a><!-- End Profile Iamge Icon -->
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6>Desa Salatiga</h6>
-                            <span>---</span>
+                            <h6>Desa Sukarasa</h6>
+                            <span>Kec. Lakbok Kab. Pangandaran</span>
                         </li>
                         <li>
                             <hr class="dropdown-divider">
