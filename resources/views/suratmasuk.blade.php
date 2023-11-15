@@ -166,11 +166,10 @@
                             <td>{{ $data->perihal->perihal }}</td>
                             <td class="d-flex">
 
-                                <a href="/suratmasuk/{{ $data->id }}" class="btn btn-success text-white" data-bs-toggle="modal"
-                                    data-bs-target="#download{{ $data->id }}"
-                                    download><i class="bi bi-download"></i></a>
+                                <a href="/suratmasuk/{{ $data->id }}" class="btn btn-success text-white""
+                                    ><i class="bi bi-download"></i></a>
 
-                                <div class="modal fade" id="download{{ $data->id }}" tabindex="-1"
+                                {{-- <div class="modal fade" id="download{{ $data->id }}" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
@@ -186,7 +185,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
 
                                 {{-- @if ($data->filemasuk->file)
                                     <a href="{{ asset('file_suratmasuk' . $data->filemasuk->file) }}"

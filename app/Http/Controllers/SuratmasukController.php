@@ -76,9 +76,7 @@ class SuratmasukController extends Controller
      */
     public function show($id)
     {
-        // return view('includeSuratMasuk', [
-        //     'file'      => Filemasuk::where('suratmasuk_id', $id)->get()
-        // ]);
+        //
     }
 
     /**

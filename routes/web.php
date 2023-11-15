@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\PerihalController;
 use App\Http\Controllers\SuratmasukController;
 use Illuminate\Support\Facades\Route;
@@ -20,11 +21,16 @@ use Illuminate\Support\Facades\Route;
 //     return view('beranda');
 // });
 
-// Route::get('/suratmasuk', function () {
-//     return view('suratmasuk');
+// Route::get('/oy', function () {
+//     return view('login');
 // });
 
-Route::get('/',[IndexController::class,'beranda']);
+// Login
+Route::get('/',[LoginController::class,'index']);
+Route::post('/masukberanda',[LoginController::class,'login']);
+Route::post('/logout',[LoginController::class,'logout']);
+
+Route::get('/beranda',[IndexController::class,'beranda']);
 Route::get('/suratkeluar',[IndexController::class,'suratkeluar']);
 Route::get('/profile',[IndexController::class,'profile']);
 Route::get('/laporan',[IndexController::class,'laporan']);

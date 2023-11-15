@@ -1,4 +1,5 @@
-<table>
+
+{{-- <table>
     @foreach ($file as $item)
         <tr>
             <td>{{ $item->file }}</td>
@@ -8,4 +9,4 @@
             </td>
         </tr>
     @endforeach
-</table>
+</table> --}}
